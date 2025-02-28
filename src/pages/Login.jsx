@@ -69,7 +69,7 @@ const Login = () => {
         </form>
 
         <button onClick={handleGoogleLogin} className="google-login-button">
-          <img src="google-icon.png" alt="Google Logo" className="google-icon" />
+          <img src="C:\Users\mehta\OneDrive\Desktop\youtube-clone\my-aut\google-icon.png" alt="Google Logo" className="google-icon" />
           Sign in with Google
         </button>
 
