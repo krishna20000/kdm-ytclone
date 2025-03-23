@@ -20,7 +20,7 @@ const Login = () => {
       await signInWithEmailAndPassword(auth, email, password);
       setSuccess("Login Successful! Redirecting...");
       setTimeout(() => {
-        window.location.href = "https://youtube-clone-wmjm.vercel.app/"; // Redirect after success
+        window.location.href = "https://ytclone-numberzz-react.vercel.app/"; // Redirect after success
       }, 2000);
     } catch (err) {
       setError(err.message);
